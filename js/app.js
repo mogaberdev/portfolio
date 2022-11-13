@@ -67,8 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
   .move(-2)
   .type("b")
   .move(2)
+  .type(".")
   .go();
-
-
 
 });
