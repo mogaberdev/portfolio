@@ -44,3 +44,31 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+
+document.addEventListener("DOMContentLoaded", function () {
+  new TypeIt("#typing", {
+    speed: 20,
+  })
+  .type("Helo!")
+  .pause(300)
+  .move(-2)
+  .type("l")
+  .move(2)
+  .type("<br>")
+  .type("I am ")
+  .type("Mohaed")
+  .pause(300)
+  .move(-2)
+  .type("m")
+  .move(2)
+  .type(" ")
+  .type("Gaer")
+  .pause(300)
+  .move(-2)
+  .type("b")
+  .move(2)
+  .go();
+
+
+
+});
